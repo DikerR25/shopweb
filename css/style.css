@@ -191,13 +191,29 @@ body{
 
 @media (max-width:1000px){
 
-   html{
+  html{
       font-size: 55%;
    }
-   
+
    .products-preview .preview {
-      width: 90%;
-      height: 100%
+      width: 60%;
+      height: 100%;
+   }
+
+   .products-preview .preview .buttons a {
+      gap: 3rem;
+   }
+
+   .products-preview .preview p {
+      font-size: 3rem;
+   }
+     
+   .products-preview .preview .stars {
+      font-size: 2.9rem;
+   }
+
+   .products-preview .preview .fa-times {
+      font-size: 6rem;
    }
    
 }
@@ -208,8 +224,8 @@ body{
       height: 25rem;
    }
    
-   .products-preview .preview .buttons a {
-      height: 50px;
+  .products-preview .preview .buttons a {
+      gap: 3rem;
    }
 
 }
