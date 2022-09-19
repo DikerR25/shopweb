@@ -197,7 +197,7 @@ body{
    
    .products-preview .preview {
       width: 90%;
-      height: 90%
+      height: 100%
    }
    
 }
@@ -206,6 +206,10 @@ body{
 
    .products-preview .preview img{
       height: 25rem;
+   }
+   
+   .products-preview .preview .buttons a {
+      height: 50px;
    }
 
 }
