@@ -111,7 +111,8 @@ body{
 }
 
 .products-preview .preview img{
-   height: 20%;
+   height: 100%;
+   widht: 100%;
 }
 
 .products-preview .preview .fa-times{
