@@ -189,12 +189,16 @@ body{
 }
 
 
-@media (max-width:991px){
+@media (max-width:1000px){
 
    html{
       font-size: 55%;
    }
-
+   
+   .products-preview .preview {
+      width: 60%;
+   }
+   
 }
 
 @media (max-width:768px){
